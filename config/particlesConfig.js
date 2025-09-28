@@ -73,21 +73,3 @@ const particlesConfig = {
 };
 
 export default particlesConfig;
-```eof
-
-### Your Step-by-Step Instructions
-
-1.  **Create the `config` folder:** In the **root** of your project folder (at the same level as `components` and `pages`), create a new folder named `config`.
-
-2.  **Create the file:** Inside the new `config` folder, create a file named exactly `particlesConfig.js`.
-
-3.  **Add the code:** Copy the code from the file block above and paste it into your new `particlesConfig.js` file.
-
-4.  **Push to GitHub:** You need to upload this new folder and file. Run these commands in your terminal:
-    ```bash
-    git add config/particlesConfig.js
-    git commit -m "Add particles configuration"
-    git push origin main
-    ```
-
-Once you push this commit, Vercel will automatically start a new deployment. This time, it will be able to find the `particlesConfig.js` file, and your build should complete successfully.
